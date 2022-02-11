@@ -41,7 +41,7 @@ var configs = (function() {
         hostname: "Host",
         platform: "Platform",
         accesible_cores: "Accessible cores",
-        locationuser: "Location",
+        locationuser: "Location : Do Not Track (->-)",
         language: "Language",
         value_token: "<value>",
         host: "cummunity",
@@ -56,20 +56,7 @@ var configs = (function() {
         }
     };
 })();
-/** LOCATION*/
 
-
-function showLoc() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(function(posku) {
-            var locatioonFoo = "LT :" + posku.coords.latitude + "LONG :" + posku.coords.longitude;
-            document.getElementsByName("locationuser").innerHTML = locatioonFoo;
-        });
-    } else {
-        var loju = "Do Not Track ! :) "
-    }
-}
-showLoc();
 /**
  * Your files here
  */
