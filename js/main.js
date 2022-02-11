@@ -41,13 +41,13 @@ var configs = (function() {
         hostname: "Host",
         platform: "Platform",
         accesible_cores: "Accessible cores",
-        locationuser: "Location : Do Not Track (->-)",
+        locationuser: "Location",
         language: "Language",
         value_token: "<value>",
         host: "community",
-        user: "😈human",
+        user: "🐛 > human",
         is_root: false,
-        type_delay: 20
+        type_delay: 17
     };
     return {
         getInstance: function(options) {
@@ -56,6 +56,7 @@ var configs = (function() {
         }
     };
 })();
+/** LOCATION*/
 
 /**
  * Your files here
