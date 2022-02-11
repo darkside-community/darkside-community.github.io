@@ -44,8 +44,8 @@ var configs = (function() {
         locationuser: "Location : Do Not Track (->-)",
         language: "Language",
         value_token: "<value>",
-        host: "cummunity",
-        user: "guest",
+        host: "community",
+        user: "&#128520 human",
         is_root: false,
         type_delay: 20
     };
