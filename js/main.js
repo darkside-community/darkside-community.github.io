@@ -45,7 +45,7 @@ var configs = (function() {
         language: "Language",
         value_token: "<value>",
         host: "community",
-        user: "&#128520 human",
+        user: "😈human",
         is_root: false,
         type_delay: 20
     };
